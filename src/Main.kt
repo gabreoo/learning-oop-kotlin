@@ -12,6 +12,8 @@ fun main() {
 
     corolla.ligando()
 
-    val p1 = User("João", 25)
+    val p1 = User(18, "Feminino")
     p1.detalhesUser()
+
+//    println("")
 }
