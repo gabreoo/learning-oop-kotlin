@@ -11,4 +11,7 @@ fun main() {
     corolla.detalhesCarro()
 
     corolla.ligando()
+
+    val p1 = User("João", 25)
+    p1.detalhesUser()
 }
