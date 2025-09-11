@@ -1,10 +1,5 @@
-class Carro (val marca: String, val cor : String, val ano: Int, val altura : Double) {
+//class Carro(val marca: String, val ano: Int) : Veiculo(marca, ano) {
+//
+//}
 
-    fun detalhesCarro () {
-        println("$marca de $cor ano $ano")
-    }
-
-    fun ligando() {
-        println("Vrummmmmmm")
-    }
-}
+class Carro(marca: String, ano: Int) : Veiculo(marca, ano)

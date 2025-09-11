@@ -1,7 +1,7 @@
-class Veiculo (val tipo : String, val marca : String, val ano : Int) {
+open class Veiculo (val marca : String, val ano : Int) {
 
     fun detalhesVeiculo () {
-        println("Tipo: $tipo, Marca: $marca, Ano: $ano")
+        println("Marca: $marca, Ano: $ano")
     }
 
 
