@@ -14,4 +14,11 @@ class User (val nome: String, val idade: Int, val sexo: String ) {
     constructor(idade: Int, sexo: String) : this("Não definido", idade, "Não definido"){
         println("3")
     }
+
+    fun objetoCriado () {
+        println("Objeto criado")
+    }
+    init {
+     objetoCriado()
+    }
 }
