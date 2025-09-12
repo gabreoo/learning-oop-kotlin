@@ -1,12 +1,14 @@
 class Carro : Veiculo {
-
-    override fun detalhesVeiculo(marca: String, ano: Int) {
-        super.detalhesVeiculo(marca, ano)
+    override fun detalhesVeiculo(marca: String, cor: String, ano: Int) {
+        println("O carro é da $marca e é da cor $cor, fabricado em $ano")
     }
 
-    override fun acelerar() {
-        super.acelerar()
+    override fun primeiraMarcha() {
+        TODO("Not yet implemented")
     }
 
+    override fun segundaMarcha() {
+        TODO("Not yet implemented")
+    }
 
 }

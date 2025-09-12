@@ -2,9 +2,6 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
 
-    val c1 = Carro("Ford", 2020)
-
-
-    val moto = Moto("Honda", 2018)
-
+    val corolla = Carro()
+    corolla.detalhesVeiculo("toyota", "Prata", 2020)
 }
