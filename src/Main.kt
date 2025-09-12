@@ -3,8 +3,8 @@
 fun main() {
 
     val c1 = Carro("Ford", 2020)
-    c1.detalhesVeiculo()
+
 
     val moto = Moto("Honda", 2018)
-    moto.detalhesVeiculo()
+
 }

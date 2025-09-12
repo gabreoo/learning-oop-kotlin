@@ -1,8 +1,13 @@
-open class Veiculo (val marca : String, val ano : Int) {
+interface Veiculo {
 
-    fun detalhesVeiculo () {
-        println("Marca: $marca, Ano: $ano")
+fun detalhesVeiculo(marca: String, ano: Int) {
+    println("Marca: $marca, Ano: $ano")
+}
+    fun acelerar() {
+        println("Acelerando o veículo")
     }
 
-
+    fun primeiraMarcha() {
+        println("Colocando o veículo na primeira marcha")
+    }
 }

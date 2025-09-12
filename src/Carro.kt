@@ -1,5 +1,12 @@
-//class Carro(val marca: String, val ano: Int) : Veiculo(marca, ano) {
-//
-//}
+class Carro : Veiculo {
 
-class Carro(marca: String, ano: Int) : Veiculo(marca, ano)
+    override fun detalhesVeiculo(marca: String, ano: Int) {
+        super.detalhesVeiculo(marca, ano)
+    }
+
+    override fun acelerar() {
+        super.acelerar()
+    }
+
+
+}

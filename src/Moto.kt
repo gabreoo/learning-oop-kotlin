@@ -1,3 +1,3 @@
-class Moto (marca: String, ano: Int, ) : Veiculo(marca, ano){
+class Moto (marca: String, ano: Int, ) : Veiculo {
 
 }
