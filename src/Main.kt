@@ -5,5 +5,9 @@ fun main() {
     val corolla = Carro()
     corolla.detalhesVeiculo("toyota", "Prata", 2020)
 
+    println(Carro.DB_FORNECEDORES)
+
+    val fornecedoresChassi = Carro.CLIENTES
+
 
 }

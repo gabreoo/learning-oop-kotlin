@@ -4,11 +4,15 @@ class Carro : Veiculo {
     }
 
     override fun primeiraMarcha() {
-        TODO("Not yet implemented")
+        println("O carro está na primeira marcha")
     }
 
     override fun segundaMarcha() {
-        TODO("Not yet implemented")
+        println("Agora segunda marcha")
     }
 
+    companion object {
+        const val DB_FORNECEDORES = "DB_FORNECEDORES"
+        const val CLIENTES = "CLIENTES"
+    }
 }
