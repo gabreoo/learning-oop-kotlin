@@ -7,4 +7,9 @@ interface Veiculo {
 
     fun primeiraMarcha()
     fun segundaMarcha()
+
+    companion object {
+        const val DB_FORNECEDORES = "DB_FORNECEDORES"
+        const val CLIENTES = "CLIENTES"
+    }
 }
