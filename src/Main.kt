@@ -19,7 +19,12 @@ fun main() {
     val joao = Aluno(12345, "João", "Rua A, 123")
     joao.descricao()
 
+    val Ramilson = Professor("Ramilson", "Rua B, 456", "Geografia")
+
 }
+
+
+
 
 open class Membros (var nome : String, var endereco: String) {
 
@@ -38,9 +43,12 @@ class Aluno (var matricula: Int, nome: String, endereco: String) : Membros(nome,
         acessoBiblioteca = false
     }
 
-//    fun descricaoAluno () {
-//        println("Aluno: $nome, endereço: $endereco, matrícula: $matricula")
-//    }
-
 }
 
+class Professor (nome: String, endereco: String, var especialidade: String) : Membros(nome, endereco) {
+
+    init {
+        acessoBiblioteca = true
+    }
+
+}
