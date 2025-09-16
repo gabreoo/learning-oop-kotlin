@@ -13,5 +13,5 @@ fun main() {
 
     val (idade, nome) = guilherme
 
-    println("$idade, $nome")
+    println("$idade, $nome") // vai imprimitr guilherme e depois 22 pq ele segue a ordem da classe User
 }
