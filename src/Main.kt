@@ -9,5 +9,9 @@ fun main() {
 
     val fornecedoresChassi = Carro.CLIENTES
 
+    val guilherme = User("guilherme", 22)
 
+    val (idade, nome) = guilherme
+
+    println("$idade, $nome")
 }
