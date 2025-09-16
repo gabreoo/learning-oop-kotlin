@@ -14,4 +14,33 @@ fun main() {
     val (idade, nome) = guilherme
 
     println("$idade, $nome") // vai imprimitr guilherme e depois 22 pq ele segue a ordem da classe User
+
+
+    val joao = Aluno(12345, "João", "Rua A, 123")
+    joao.descricao()
+
 }
+
+open class Membros (var nome : String, var endereco: String) {
+
+    protected var acessoBiblioteca = false
+
+    fun descricao () {
+        println("Membro: $nome, endereço: $endereco acesso a biblioteca: $acessoBiblioteca")
+    }
+
+
+}
+
+class Aluno (var matricula: Int, nome: String, endereco: String) : Membros(nome, endereco) {
+
+    init {
+        acessoBiblioteca = false
+    }
+
+//    fun descricaoAluno () {
+//        println("Aluno: $nome, endereço: $endereco, matrícula: $matricula")
+//    }
+
+}
+
