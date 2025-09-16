@@ -19,8 +19,10 @@ fun main() {
     val joao = Aluno(12345, "João", "Rua A, 123")
     joao.descricao()
 
-    val Ramilson = Professor("Ramilson", "Rua B, 456", "Geografia")
+    val ramilson = Professor("Ramilson", "Rua B, 456", "Geografia")
 
+    ramilson.descricao()
+    println(ramilson.especialidade)
 }
 
 
