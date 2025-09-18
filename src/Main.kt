@@ -23,10 +23,18 @@ fun main() {
 
     ramilson.descricao()
     println(ramilson.especialidade)
+
+
 }
 
 
+class textView (var text: String, var backgroundColor : String) {
 
+
+    fun render () {
+        println("Renderizando o texto $text com a cor de fundo $backgroundColor" )
+    }
+}
 
 open class Membros (var nome : String, var endereco: String) {
 
