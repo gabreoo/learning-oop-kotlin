@@ -24,7 +24,8 @@ fun main() {
     ramilson.descricao()
     println(ramilson.especialidade)
 
-
+    val greenHelloWorld = textView("Hello World", "Green")
+    greenHelloWorld.render()
 }
 
 
@@ -34,6 +35,8 @@ class textView (var text: String, var backgroundColor : String) {
     fun render () {
         println("Renderizando o texto $text com a cor de fundo $backgroundColor" )
     }
+
+
 }
 
 open class Membros (var nome : String, var endereco: String) {
