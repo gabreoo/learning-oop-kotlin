@@ -24,18 +24,24 @@ fun main() {
     ramilson.descricao()
     println(ramilson.especialidade)
 
-    val greenHelloWorld = textView("Hello World", "Green")
+    val greenHelloWorld = textColor("Hello World", "Green")
     greenHelloWorld.render()
+
+    val blueButton = btnStyle("Enviar", "White", "Blue")
+    blueButton.render()
 }
 
 
-class textView (var text: String, var backgroundColor : String) {
+open class textColor (var text: String, var color : String) {
 
 
     fun render () {
-        println("Renderizando o texto $text com a cor de fundo $backgroundColor" )
+        println("Renderizando o texto $text com a cor de fundo $color" )
     }
 
+}
+
+class btnStyle (text : String, color: String, var btnBgColor : String) : textColor(text, color) {
 
 }
 
