@@ -2,6 +2,56 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
 
+    val g = Guitar("Vermelha")
+    g.console()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //    val corolla = Carro()
 //    corolla.detalhesVeiculo("toyota", "Prata", 2020)
 //
